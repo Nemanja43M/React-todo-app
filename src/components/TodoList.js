@@ -1,6 +1,10 @@
 import style from "./TodoList.module.css";
 
-function TodoList({ todo }) {
+function TodoList({ todo, setTodo }) {
+  const handlerDelete = ({ id }) => {
+    setTodo(todo.filter((todo) => todo.id !== id));
+  };
+
   return (
     <div>
       {todo.map((todo) => (
@@ -19,7 +23,10 @@ function TodoList({ todo }) {
             <button className={style.buttonedit}>
               <i className="fa fa-edit" />
             </button>
-            <button className={style.buttondelete}>
+            <button
+              className={style.buttondelete}
+              onClick={() => handlerDelete(todo)}
+            >
               <i className="fa fa-trash" />
             </button>
           </div>

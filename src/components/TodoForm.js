@@ -93,7 +93,7 @@ function TodoForm() {
         </Button>
       </form>
 
-      <TodoList todo={todo} />
+      <TodoList todo={todo} setTodo={setTodo} />
     </div>
   );
 }
