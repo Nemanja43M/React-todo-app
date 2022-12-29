@@ -1,0 +1,44 @@
+.list {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  width: 260px;
+  color: #c8dc12;
+  border: 1px solid #c8dc12;
+  background-color: #000000;
+  margin-right: 25px;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 7px;
+}
+.buttoncomplete,
+.buttonedit,
+.buttondelete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+.buttoncomplete {
+  color: #ff6c6c;
+  margin-right: 10px;
+}
+.buttonedit {
+  color: #e2d029;
+  margin-right: 10px;
+}
+.buttondelete {
+  color: lightseagreen;
+}
+.buttondiv {
+  display: flex;
+  text-align: center;
+}
+.span {
+  display: grid;
+  row-gap: 10px;
+}
