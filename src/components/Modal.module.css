@@ -1,0 +1,10 @@
+.buttonedit {
+  color: #e2d029;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}

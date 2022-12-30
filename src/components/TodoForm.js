@@ -97,6 +97,7 @@ function TodoForm({ todoObj, mode, setTodo, todo, handleClose }) {
           <FormControl>
             <InputLabel>Priority</InputLabel>
             <Select
+              sx={{ width: "239px" }}
               className={style.input}
               onChange={onHandlerPicker}
               value={picker}
@@ -109,7 +110,7 @@ function TodoForm({ todoObj, mode, setTodo, todo, handleClose }) {
         </div>
         <Button
           className={style.button}
-          sx={{ left: "40%" }}
+          sx={{ left: "37%" }}
           type="submit"
           variant="contained"
         >
