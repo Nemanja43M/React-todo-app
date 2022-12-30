@@ -1,8 +1,8 @@
 import style from "./TodoList.module.css";
-
 import ModalEdit from "./Modal";
 
 function TodoList({ todo, setTodo }) {
+  
   const handlerDelete = ({ id }) => {
     setTodo(todo.filter((todo) => todo.id !== id));
   };

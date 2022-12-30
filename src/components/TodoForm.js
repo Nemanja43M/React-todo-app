@@ -9,7 +9,6 @@ import {
 } from "@mui/material";
 import style from "./TodoForm.module.css";
 import { useState } from "react";
-
 import { v4 as uuidv4 } from "uuid";
 
 function TodoForm({ todoObj, mode, setTodo, todo, handleClose }) {
@@ -60,7 +59,6 @@ function TodoForm({ todoObj, mode, setTodo, todo, handleClose }) {
       );
       handleClose();
     }
-
     setTitle("");
     setPicker("");
     setDate("");
@@ -110,7 +108,7 @@ function TodoForm({ todoObj, mode, setTodo, todo, handleClose }) {
         </div>
         <Button
           className={style.button}
-          sx={{ left: "37%" }}
+          sx={{ left: "42%" }}
           type="submit"
           variant="contained"
         >
